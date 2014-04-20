@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<movie>
+	<title></title>
+	<originaltitle></originaltitle>
+	<sorttitle></sorttitle>
+	<set></set>
+	<rating>8</rating>
+	<year></year>
+	<top250>0</top250>	<!-- the IMDB top 250 ranking, integer 1 - 250 or empty -->
+	<votes>0</votes>
+	<outline></outline>	<!-- a short plot description -->
+	<plot></plot>	<!-- a longer plot description -->
+	<tagline></tagline>	<!-- The tagline for the movie -->
+	<runtime></runtime>
+	<premiered></premiered>	<!-- the release date of the movie -->
+	<fanart></fanart>	<!-- url of fanart image. use URL formatting, such as http:// for internet resources or file:// for local resources -->
+	<thumb></thumb>	<!-- url of poster image. use URL formatting, such as http:// for internet resources or file:// for local resources -->
+	<mpaa></mpaa>
+	<playcount>0</playcount>
+	<watched>false</watched>
+	<id></id>	<!-- the IMDB id of the movie. includes the leading "tt". Use an id of 0 or -1 to disable further internet plugin scraping. -->
+	<filenameandpath></filenameandpath>	<!-- currently unused since YAMJ determines path from searching the configured libraries -->
+	<trailer></trailer>	<!-- multiple trailer records may exist -->
+	<genre></genre>		<!-- multiple genre records may exist, including any custom ones -->
+	<tag></tag>
+	<credits></credits>
+	<company></company>		<!-- The studio company that produced the movie -->
+	<studio></studio>	<!-- Synonym for company tag -->
+	<country></country>	<!-- Country the video was produced in -->
+	<fps></fps>	<!-- The Frames Per Second value for the movie. NOTE: This should be a valid float value (with a ".") -->
+	<director></director>
+</movie>
